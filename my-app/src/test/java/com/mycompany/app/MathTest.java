@@ -4,8 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+
 public class MathTest {
 	
+	public MathTest() {
+		// TODO Auto-generated constructor stub
+	}
 	@Test
 	public void TestPrime_1()
 	{
@@ -21,7 +25,7 @@ public class MathTest {
 	@Test
 	public void TestPrime_3()
 	{
-		assertTrue(Math.isPrime(3));
+		assertTrue(Math.isPrime(1000));
 	}
 	
 	@Test
