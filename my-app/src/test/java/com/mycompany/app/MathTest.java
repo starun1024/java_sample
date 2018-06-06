@@ -25,7 +25,7 @@ public class MathTest {
 	@Test
 	public void TestPrime_3()
 	{
-		assertTrue(Math.isPrime(30));
+		assertTrue(Math.isPrime(3));
 	}
 	
 	@Test
